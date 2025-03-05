@@ -9,3 +9,4 @@ close
 if (Adult > Age)
     log string "он/она НЕ совершеннолетняя и НЕ может купить алкоголь"
 close
+finish
