@@ -1,0 +1,25 @@
+start
+new sum number
+set sum 0
+new AD number
+set AD 40
+log string >> "Путь AD = " >> AD
+new AB number
+set AB 5
+log string >> "Путь AB = " >> AB
+set sum sum + AB
+new BC number
+set BC 10
+set sum sum + BC
+log string >> "Путь AB + BC = " >> sum
+new CD number
+set CD 5
+set sum sum + CD
+log string >> "Путь AB + BC + CD = " >> sum
+if (AD > sum)
+    log string "Путь с автобусом быстрее"
+close
+if (sum > AD)
+    log string "Путь пешком быстрее"
+close
+finish
