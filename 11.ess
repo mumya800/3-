@@ -3,9 +3,9 @@ new Age number
 set Age 19
 new Adult number
 set Adult 18
-if (age > adult)
+if (Age > Adult)
     log string "он/она совершеннолетняя и может купить алкоголь"
 close
-if (adult > age)
+if (Adult > Age)
     log string "он/она НЕ совершеннолетняя и НЕ может купить алкоголь"
 close
