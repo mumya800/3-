@@ -22,5 +22,9 @@ else
                 log string "a > x > b"
             else
                 log string "x > a"
+delete a
+delete b
+delete c
+delete d
 close
 finish
